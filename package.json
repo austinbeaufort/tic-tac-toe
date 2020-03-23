@@ -1,0 +1,17 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Austin Beaufort",
+  "license": "ISC",
+  "dependencies": {
+    "ez-read": "^1.0.8",
+    "model": "^6.0.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
