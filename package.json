@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "parcel build index.html",
+    "pre-deploy": "parcel build index.html --public-url https://github.com/austinbeaufort/tic-tac-toe/",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +15,9 @@
     "ez-read": "^1.0.8",
     "model": "^6.0.1",
     "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "parcel": "^1.12.4"
   }
 }
